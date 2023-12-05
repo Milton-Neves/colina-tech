@@ -1,18 +1,473 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Colina Tech</title>
-  </head>
-  <body>
-    <div class="banner">
-      <h1>Seu Texto Aqui</h1>
-      <p>Descrição do seu banner...</p>
-      <button class="btn">Meu Botão</button>
-    </div>
 
-    <script src="src/script.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <title>Colina Tech</title>
+</head>
+
+<body class="bg-gray-200">
+  <div class="banner" style="
+        background-image: url('assets/img/bg-hero.png');
+        background-size: cover;
+        background-position: center;
+      ">
+    <div class="container mx-auto p-8">
+      <div class="text-white p-8 flex flex-col md:flex-row md:justify-between items-center">
+        <div class="max-w-lg text-center md:text-left md:mr-8">
+          <h1 class="h1-costume font-bold" style="color: #1acdb8">
+            Escale suas vendas
+          </h1>
+          <h1 class="h1-costume font-bold">
+            a partir do marketing<br />
+            digital
+          </h1>
+          <p class="p-costume md:mt-16">
+            Acredita que sua empresa pode ter melhores resultados no Marketing
+            Digital?<br />
+            Entre em contato e tenha uma sessão estratégica
+            <span class="font-bold" style="color: #1acdb8">grátis</span> com
+            um dos diretores da Colina Tech.
+          </p>
+          <button class="btn mt-4 md:mt-12 bg-1ACDB8 text-white">
+            Agendar agora
+          </button>
+        </div>
+        <div class="mt-4 md:mt-0 md:text-right">
+          <img src="assets/img/image-hero.png" alt="imagem de um notebook" class="max-w-full h-auto" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about">
+    <div class="container mx-auto p-8 pb-0 pr-0 mr-0">
+      <div class="text-white p-8 pb-0 pr-0 flex flex-col md:flex-row md:justify-between items-end">
+        <div class="max-w-xl text-center md:text-left md:mr-8 mb-10">
+          <h2 class="h2-costume font-bold" style="color: #1acdb8">
+            Somos uma agência data driven marketing!
+            <span class="h2-costume font-bold" style="color: #0a0b0b">
+              E o que isso significa?
+            </span>
+          </h2>
+          <div class="max-w-md">
+            <p class="p2-costume md:mt-8">
+              Significa que o nosso objetivo de fato é gerar resultados
+              mensuráveis e que possam comprovar o ROI (Return of Investment)
+              das nossas ações. O que não é medido, não pode ser gerenciado.
+            </p>
+            <p class="p2-costume md:mt-8">
+              Por isso, trabalhamos com escopos de serviços que conseguimos
+              realmente acompanhar e monitorar toda a jornada do usuário/lead
+              para garantir que ele realize as conversões necessárias.
+            </p>
+            <p class="p2-costume md:mt-8">
+              Temos reuniões semanais com clientes para acompanhar seus
+              <br />
+              <span class="font-bold">resultados de verdade: as vendas!</span>
+            </p>
+          </div>
+
+          <button class="btn-2 mt-4 md:mt-12 bg-1ACDB8 text-white">
+            Agende sua sessão estratégica grátis
+          </button>
+        </div>
+
+        <div class="mt-4 md:mt-0 md:text-right pb-0  pr-0">
+          <img src="assets/img/image-ceo1.png" alt="imagem de um notebook" class="max-w-full h-auto" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- INÍCIO ESPECIALISTA -->
+  <div class="especialista" style="
+        background-image: url('assets/img/bg-especialista.png');
+        background-size: cover;
+        background-position: center;
+      ">
+    <div class="container mx-auto p-8">
+      <div class="text-white p-8 flex items-center flex-col">
+        <h2 class="h2-costume font-bold text-center mb-8" style="color: #0a0b0b">
+          Qual dessas soluções é a que você precisa?
+        </h2>
+
+        <div class="flex justify-center">
+          <!-- Coluna 1 -->
+          <div class="w-full md:w-1/4 p-4 flex flex-col">
+            <div class="icon">
+              <img src="assets/img/performance-icon.svg" alt="Performance" />
+            </div>
+            <div class="description">
+              <p class="h4-costume text-left font-bold">Performance</p>
+              <p class="h5-costume text-left" style="width: 240px">
+                O seu produto e/ou serviço pode ser o melhor do mundo, mas se
+                você não é visto, não é lembrado, concorda? Apareça para o seu
+                potencial cliente de forma ativa e aumente suas vendas de
+                forma recorrente.
+              </p>
+            </div>
+          </div>
+
+          <!-- Coluna 2 -->
+          <div class="w-full md:w-1/4 p-4 flex flex-col">
+            <div class="icon">
+              <img src="assets/img/seo-icon.svg" alt="seo" />
+            </div>
+            <div class="description">
+              <p class="h4-costume text-left font-bold">SEO</p>
+              <p class="h5-costume text-left" style="width: 240px">
+                Com nossos especialistas, construiremos estratégias de SEO
+                para que seu site alcance bons rankings nas buscas do Google.
+                A partir disso, conseguimos aumentar o reconhecimento de marca
+                e captar clientes passivos.
+              </p>
+            </div>
+          </div>
+
+          <!-- Coluna 3 -->
+          <div class="w-full md:w-1/4 p-4 flex flex-col">
+            <div class="icon">
+              <img src="assets/img/automacao-icon.svg" alt="automacao" />
+            </div>
+            <div class="description">
+              <p class="h4-costume text-left font-bold">
+                Automação de Marketing
+              </p>
+              <p class="h5-costume text-left" style="width: 240px">
+                Manter o relacionamento com a base de clientes é fundamental
+                para fidelização e previsibilidade do seu funil de vendas,
+                utilizando ferramentas que ajudem na evolução da jornada de
+                compra.
+              </p>
+            </div>
+          </div>
+
+          <!-- Coluna 4 -->
+          <div class="w-full md:w-1/4 p-4 flex flex-col">
+            <div class="icon">
+              <img src="assets/img/conversation-icon.svg" alt="conversation" />
+            </div>
+            <div class="description">
+              <p class="h4-costume text-left font-bold">Site de Conversão</p>
+              <p class="h5-costume text-left" style="width: 240px">
+                Nossa equipe com autoridade em design cria sites de conversão
+                personalizados que são otimizados para o público-alvo. Isso
+                garante que seja atraente, fácil de usar e altamente eficaz em
+                termos de conversão.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="max-w-md mt-8 text-center">
+          <button class="btn-4 bg-1ACDB8">Fale com um especialista</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FIM -->
+  <div class="diferenciais">
+    <div class="container mx-auto p-8">
+      <div class="text-white p-8 flex items-center flex-col">
+        <h2 class="h2-costume font-bold text-center mb-8" style="color: #1acdb8">
+          Nossos diferenciais
+        </h2>
+
+        <div class="flex justify-center">
+          <!-- Coluna 1 -->
+          <div class="w-full md:w-1/4 p-4 flex flex-col items-center">
+            <img src="assets/img/google.png" alt="Google partner" class="w-full h-auto mb-4"
+              style="width: 72px; height: 72px" />
+            <p class="h4-costume text-center font-bold">Google partner</p>
+          </div>
+
+          <!-- Coluna 2 -->
+          <div class="w-full md:w-1/2 p-4 flex flex-col items-center md:mr-20">
+            <img src="assets/img/active.png" alt="Active Campaign Partner" class="w-full h-auto mb-4"
+              style="width: 48px; height: 72px" />
+            <p class="h4-costume text-center font-bold">
+              Active Campaign<br />
+              Partner
+            </p>
+          </div>
+
+          <!-- Coluna 3 -->
+          <div class="w-full md:w-1/2 p-4 flex flex-col items-center">
+            <img src="assets/img/pessoas.png" alt="Equipe multidisciplinar" class="w-full h-auto mb-4"
+              style="width: 95px; height: 72px" />
+            <p class="h4-costume text-center font-bold">
+              Equipe multidisciplinar
+            </p>
+          </div>
+
+          <!-- Coluna 4 -->
+          <div class="w-full md:w-1/4 p-4 flex flex-col items-center">
+            <img src="assets/img/manychat.png" alt="ManyChat Partner" class="w-full h-auto mb-4"
+              style="width: 120px; height: 72px" />
+            <p class="h4-costume text-center font-bold">
+              ManyChat<br />
+              Partner
+            </p>
+          </div>
+        </div>
+
+        <div class="max-w-md mt-8 text-center">
+          <button class="btn-3 bg-1ACDB8 text-white">
+            Fale com um especialista
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="empresas">
+    <div class="container mx-auto p-8">
+      <div class="text-white p-8 flex items-center flex-col">
+        <h2 class="h2-costume font-bold text-center mb-8" style="color: #1acdb8">
+          Conheça as empresas que chegaram ao topo da Colina
+        </h2>
+
+        <div class="flex justify-center" style="
+              background-color: #f5f5f5;
+              border-radius: 109px;
+              align-items: center;
+              padding: 0 45px;
+            ">
+          <!-- Coluna 1 -->
+          <div class="w-full md:w-1/4 p-4 flex flex-col items-center">
+            <img src="assets/img/marca/marca1.png" alt="Google partner" class="w-full h-auto mb-4"
+              style="width: 202px; height: 29px" />
+          </div>
+
+          <!-- Coluna 2 -->
+          <div class="w-full md:w-1/2 p-4 flex flex-col items-center md:mr-20">
+            <img src="assets/img/marca/marca2.png" alt="Active Campaign Partner" class="w-full h-auto mb-4"
+              style="width: 279px; height: 70px" />
+          </div>
+
+          <!-- Coluna 3 -->
+          <div class="w-full md:w-1/2 p-4 flex flex-col items-center">
+            <img src="assets/img/marca/marca3.png" alt="Equipe multidisciplinar" class="w-full h-auto mb-4"
+              style="width: 252px; height: 189px" />
+          </div>
+
+          <!-- Coluna 4 -->
+          <div class="w-full md:w-1/4 p-4 flex flex-col items-center">
+            <img src="assets/img/marca/marca4.png" alt="ManyChat Partner" class="w-full h-auto mb-4"
+              style="width: 144px; height: 144px" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="solucoes">
+    <div class="container mx-auto p-8">
+      <div class="text-white p-8 flex flex-col md:flex-row md:justify-between items-center">
+        <div class="max-w-xl text-center md:text-left md:mr-8">
+          <h2 class="h2-costume font-bold" style="color: #1acdb8">
+            Será que as
+            <span class="h2-costume font-bold" style="color: #0a0b0b">
+              soluções da Colina Tech
+            </span>
+            são indicadas para a sua empresa?
+          </h2>
+          <div class="max-w-md">
+            <p class="p2-costume md:mt-8">
+              O Inbound Marketing é para qualquer negócio, desde que esteja
+              aberto às oportunidades do digital. Por isso, seu negócio tem
+              muitas chances de obter resultados incríveis conosco caso se
+              enquadre em uma ou mais das categorias abaixo:
+            </p>
+            <ul class="mt-3">
+              <!-- Lojas Virtuais -->
+              <li class="category-item text-left flex">
+                <img src="assets/icons/mercado.png" alt="Ícone Lojas Virtuais" class="category-icon" />
+                <span class="font-bold">Lojas Virtuais</span>
+              </li>
+
+              <!-- SaaS -->
+              <li class="category-item text-left flex">
+                <img src="assets/icons/saas.png" alt="Ícone SaaS" class="category-icon" />
+                <span class="font-bold">SaaS</span>
+              </li>
+
+              <!-- B2B -->
+              <li class="category-item text-left flex">
+                <img src="assets/icons/b2b.png" alt="Ícone B2B" class="category-icon" />
+                <span class="font-bold">B2B</span>
+              </li>
+
+              <!-- B2C -->
+              <li class="category-item text-left flex">
+                <img src="assets/icons/b2c.png" alt="Ícone B2C" class="category-icon" />
+                <span class="font-bold">B2C</span>
+              </li>
+
+              <!-- Empresas Locais e Nacionais -->
+              <li class="category-item text-left flex">
+                <img src="assets/icons/loja.png" alt="Ícone Empresas Locais e Nacionais" class="category-icon" />
+                <span class="font-bold">Empresas Locais e Nacionais</span>
+              </li>
+            </ul>
+          </div>
+
+          <button class="btn mt-4 md:mt-12 bg-1ACDB8 text-white">
+            Agendar reunião
+          </button>
+        </div>
+
+        <div class="mt-4 md:mt-0 md:text-right">
+          <img src="assets/img/image-solucoes.png" alt="imagem de um notebook" class="max-w-full h-auto" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="clientes">
+    <div class="container mx-auto p-8">
+      <div class="text-white p-8 flex flex-col md:flex-row md:justify-between items-center">
+        <!-- Coluna 1 -->
+        <div class="w-full md:w-1/2 max-w-xl text-center md:text-left mb-8 md:mb-0">
+          <h2 class="h2-costume font-bold">
+            O que nossos clientes<br /> falam sobre nós
+          </h2>
+
+          <button class="btn-3 mt-4 md:mt-12 bg-1ACDB8 text-white">Fale com um especialista</button>
+        </div>
+
+        <!-- Coluna 2 -->
+        <div class="w-full md:w-1/2 md:text-right">
+          <img src="assets/img/clientes/image-pulse.png" alt="imagem da logo pulse"
+            class="max-w-full h-auto mb-4 md:mb-0">
+
+          <div class="flex items-center mt-8">
+            <img src="assets/img/clientes/image-funcionario.png" alt="imagem perfil do funcionário"
+              class="max-w-full h-auto mr-4">
+            <div>
+              <p class="p-costume font-bold block text-left text-white">Nome da pessoa</p>
+              <p class="p2-costume text-left text-white">Cargo da pessoa na empresa</p>
+            </div>
+          </div>
+          <p class="p2-costume mt-8 md:w-full md:text-left text-white">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo con. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id es.
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  <div class="faq">
+    <div class="container mx-auto p-8">
+      <div class="flex justify-between items-start p-4">
+        <div class="w-1/2 p-4 mt-5">
+          <!-- Coluna 1 - Imagem do CEO -->
+          <img src="assets/img/faq/image-coo.png" alt="Imagem do CEO" class="max-w-full h-auto mb-4">
+        </div>
+        <div class="w-1/2 p-4 mt-20">
+          <h2 class="h2-costume font-bold mb-4 text-left" style="color: #1ACDB8;">
+            Perguntas frequentes
+          </h2>
+
+          <!-- Lista Ordenada com Ícone -->
+          <ol class="list-decimal mx-2 mt-8 ">
+            <li class="flex items-center mb-4">
+              1. A Colina Tech faz gestão de redes sociais?
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#0A0B0B"
+                class="h-5 w-5 ml-2">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </li>
+            <li class="flex items-center mb-4">
+              2. Vocês cobram comissão?
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#0A0B0B"
+                class="h-5 w-5 ml-2">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </li>
+            <li class="flex items-center mb-4">
+              3. Possuem contrato mínimo?
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#0A0B0B"
+                class="h-5 w-5 ml-2">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </li>
+          </ol>
+
+
+          <!-- Conteúdo das Abas -->
+          <div class="hidden">
+            <!-- Conteúdo da Aba 1 -->
+            <div class="mb-4">
+              <p>Conteúdo da Aba 1 aqui...</p>
+            </div>
+
+            <!-- Conteúdo da Aba 2 -->
+            <div class="mb-4">
+              <p>Conteúdo da Aba 2 aqui...</p>
+            </div>
+
+            <!-- Conteúdo da Aba 3 -->
+            <div class="mb-4">
+              <p>Conteúdo da Aba 3 aqui...</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container mx-auto p-8">
+    <!-- Contact Form Component -->
+    <section id="contact-form" class="py-8 md:py-16">
+      <div class="container mx-auto">
+        <h2 class="text-2xl font-bold text-blue-600 mb-4">
+          Entre em Contato
+        </h2>
+
+        <!-- Formulário de Contato -->
+        <form id="contactForm">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" class="w-full p-2 border rounded mb-4" required />
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" class="w-full p-2 border rounded mb-4" required />
+
+          <label for="phone">Celular:</label>
+          <input type="tel" id="phone" name="phone" class="w-full p-2 border rounded mb-4" placeholder="(xx) xxxxx-xxxx"
+            required />
+
+          <label for="company">Empresa:</label>
+          <input type="text" id="company" name="company" class="w-full p-2 border rounded mb-4" required />
+
+          <label for="industry">Área de Atuação da Empresa:</label>
+          <input type="text" id="industry" name="industry" class="w-full p-2 border rounded mb-4" required />
+
+          <label for="position">Qual o Seu Cargo:</label>
+          <input type="text" id="position" name="position" class="w-full p-2 border rounded mb-4" required />
+
+          <label for="challenges">Nos Conte Mais Sobre os Desafios do Seu Negócio:</label>
+          <textarea id="challenges" name="challenges" rows="4" class="w-full p-2 border rounded mb-4"
+            required></textarea>
+
+          <label for="question">Quanto é 5+5? (Digite o valor):</label>
+          <input type="text" id="question" name="question" class="w-full p-2 border rounded mb-4" required />
+          <small class="text-gray-600">Digite o resultado numérico.</small>
+
+          <button type="submit" class="bg-blue-600 text-white p-2 rounded">
+            Enviar Mensagem
+          </button>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <script src="src/js/script.js"></script>
+</body>
+
 </html>
