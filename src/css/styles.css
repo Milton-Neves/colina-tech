@@ -1,0 +1,88 @@
+/* styles.css */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: 'Plein';
+    src: url('/src/assets/fonts/Plein-Regular.woff2') format('woff2'),
+        url('/src/assets/fonts/Plein-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Plein-Bold', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h1-costume {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.h2-costume {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.p-costume {
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 28px;
+}
+
+.p2-costume {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: #0A0B0B;
+}
+.banner {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #1ACDB8;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    width: 256px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.btn-2 {
+    background-color: #1ACDB8;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    width: 336px;
+    height: 40px;
+}
+
+.about {
+    background-color: #F5F5F5;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
