@@ -30,7 +30,6 @@ body {
     text-align: left;
 }
 
-<<<<<<< HEAD
 .h2-costume {
     font-size: 32px;
     font-style: normal;
@@ -38,23 +37,18 @@ body {
     line-height: 40px;
 }
 
-=======
->>>>>>> 46fbe3a576357662089d2329838a85477a52f697
 .p-costume {
     font-size: 20px;
     font-weight: 400px;
     line-height: 28px;
 }
 
-<<<<<<< HEAD
 .p2-costume {
     font-size: 16px;
     font-weight: 400px;
     line-height: 24px;
     color: #0A0B0B;
 }
-=======
->>>>>>> 46fbe3a576357662089d2329838a85477a52f697
 .banner {
     background-color: #333;
     color: #fff;
@@ -70,7 +64,6 @@ body {
     width: 256px;
     height: 48px;
     font-size: 20px;
-<<<<<<< HEAD
     font-weight: 600;
     line-height: 28px;
 }
@@ -92,8 +85,20 @@ body {
     color: #fff;
     padding: 20px;
     text-align: center;
-=======
-    font-weight: 700;
-    line-height: 28px;
->>>>>>> 46fbe3a576357662089d2329838a85477a52f697
+}
+.solucoes {
+    background: linear-gradient(90deg, #D7D7DD 0%, #F6F6F6 100%);
+    color: #0A0B0B;
+    padding: 20px;
+    text-align: center;
+}
+.category-item {
+   color: #0A0B0B; 
+}
+.category-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: .7rem; 
+    margin-bottom: 1rem; 
+
 }
