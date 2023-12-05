@@ -49,6 +49,7 @@ body {
     line-height: 24px;
     color: #0A0B0B;
 }
+
 .banner {
     background-color: #333;
     color: #fff;
@@ -80,25 +81,47 @@ body {
     height: 40px;
 }
 
+.btn-3 {
+    background-color: #1ACDB8;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    width: 226px;
+    height: 40px;
+}
+
 .about {
     background-color: #F5F5F5;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
+
 .solucoes {
     background: linear-gradient(90deg, #D7D7DD 0%, #F6F6F6 100%);
     color: #0A0B0B;
     padding: 20px;
     text-align: center;
 }
+
 .category-item {
-   color: #0A0B0B; 
+    color: #0A0B0B;
 }
+
 .category-icon {
     width: 24px;
     height: 24px;
-    margin-right: .7rem; 
-    margin-bottom: 1rem; 
+    margin-right: .7rem;
+    margin-bottom: 1rem;
 
+}
+
+.diferenciais {
+    background-color: #0A0B0B;
+    color: #F5F5F5;
+    padding: 20px;
+    text-align: center;
 }
