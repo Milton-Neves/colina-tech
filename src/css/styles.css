@@ -165,12 +165,57 @@ body {
 
 }
 
+/* .v-five-R {
+    height: 80px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
+
+.description-vr {
+    display: flex;
+    flex-direction: column;
+    background-image: url('/src/assets/img/v-five-R.png');
+    /* margin: 1rem auto; */
+    gap: 0.8rem;
+    color: #ffffff;
+    font-size: 20px;
+    width: 278px;
+    height: 184px;
+    padding: 1rem 1.938rem;
+}
+.description-vr-L {
+    display: flex;
+    flex-direction: column;
+    background-image: url('/src/assets/img/v-five-S.png');
+    /* margin: 1rem auto; */
+    gap: 0.8rem;
+    color: #ffffff;
+    font-size: 20px;
+    width: 278px;
+    height: 184px;
+    padding: 1rem 1.938rem;
+    padding-right: 4rem;
+    align-items: flex-end;
+}
+
 .description {
     display: flex;
     flex-direction: column;
     margin: 1rem auto;
     gap: 1.5rem;
     color: #0A0B0B;
+}
+
+.jornada {
+    background-color: #0A0B0B;
+    color: #F5F5F5;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+
 }
 
 .empresas {
@@ -199,4 +244,17 @@ body {
     font-weight: 700;
     font-size: 20px;
     line-height: 28px;
+}
+
+.card-costume {
+    border-radius: 8px;
+    background: #1D1E22;
+    width: 300px !important;
+    height: 240px;
+}
+.resultados {
+    background-color: #0A0B0B;
+    color: #F5F5F5;
+    padding: 20px;
+    text-align: center;
 }
