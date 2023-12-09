@@ -62,54 +62,7 @@ body {
     text-align: center;
 }
 
-.btn {
-    background-color: #1ACDB8;
-    cursor: pointer;
-    border: none;
-    border-radius: 8px;
-    width: 256px;
-    height: 48px;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 28px;
-}
 
-.btn-2 {
-    background-color: #1ACDB8;
-    cursor: pointer;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    width: 336px;
-    height: 40px;
-}
-
-.btn-3 {
-    background-color: #1ACDB8;
-    cursor: pointer;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    width: 226px;
-    height: 40px;
-}
-
-.btn-4 {
-    background-color: #FFFFFF;
-    cursor: pointer;
-    color: #1ACDB8;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    width: 226px;
-    height: 40px;
-}
 
 .about {
     background-color: #F5F5F5;
@@ -119,7 +72,12 @@ body {
 }
 
 .solucoes {
-    background: linear-gradient(90deg, #D7D7DD 0%, #F6F6F6 100%);
+    /* background: linear-gradient(90deg, #D7D7DD 0%, #F6F6F6 100%); */
+    background-image: url('/src/assets/img/image-solucoes.png'), url('/src/assets/img/bg-solution-gray.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    /* z-index: 2; */
+    background-position: center center, left top;
     color: #0A0B0B;
     padding: 20px;
     text-align: center;
@@ -187,6 +145,21 @@ body {
     padding-right: 4rem;
     align-items: flex-end;
 }
+.description-vr-1 {
+    display: flex;
+    flex-direction: column;
+    background-image: url('/src/assets/img/v-five-S.png');
+    background-size: 240px;
+    background-repeat: no-repeat;
+    gap: 0.8rem;
+    color: #ffffff;
+    font-size: 20px;
+    /* width: 278px; */
+    height: 157.96px;
+    padding: 1rem 1.938rem;
+    padding-right: 5rem;
+    align-items: flex-end;
+}
 
 .description {
     display: flex;
@@ -202,6 +175,7 @@ body {
     padding: 20px;
     text-align: center;
     font-size: 16px;
+    height: 1000px;
 }
 
 .empresas {
@@ -281,4 +255,60 @@ body {
     background: #F5F5F5;
     width: 1121px !important;
     height: 463px;
+}
+
+
+/* BOTOES */
+.btn {
+    background-color: #1ACDB8;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    font-family: Plein;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    width: 256px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+}
+
+.btn-2 {
+    background: linear-gradient(216deg, #1ACDB8 10.02%, #14A797 101.36%);
+    font-size: 16px;
+    width: 170px;
+    height: 40px;
+}
+
+.btn-3 {
+    background: linear-gradient(216deg, #1ACDB8 10.02%, #14A797 101.36%);
+    font-size: 16px;
+    width: 336px;
+    height: 40px;
+}
+
+.btn-4 {
+    background-color: #FFFFFF;
+    color: #1ACDB8;
+    font-size: 16px;
+    width: 226px;
+    height: 40px;
+}
+
+.btn-5 {
+    background: linear-gradient(216deg, #1ACDB8 10.02%, #14A797 101.36%);
+    font-size: 16px;
+    width: 226px;
+    height: 40px;
+}
+
+.btn:hover,
+.btn-2:hover,
+.btn-3:hover,
+.btn-5:hover {
+    background-color: #0E9A87;
+}
+
+.btn-4:hover {
+    background-color: #affff6;
 }
