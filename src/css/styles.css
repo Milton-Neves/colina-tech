@@ -61,22 +61,20 @@ body {
     padding: 20px;
     text-align: center;
 }
-
-
-
+/* ABOUT */
 .about {
     background-color: #F5F5F5;
     color: #fff;
     padding: 20px 0 0;
+    padding-bottom: 0;
+    padding-bottom: 0;
     text-align: center;
 }
 
 .solucoes {
-    /* background: linear-gradient(90deg, #D7D7DD 0%, #F6F6F6 100%); */
-    background-image: url('/src/assets/img/image-solucoes.png'), url('/src/assets/img/bg-solution-gray.svg');
+    background: linear-gradient(90deg, #D7D7DD 0%, #F6F6F6 100%);
+    /* background-image: url('/src/assets/img/image-solucoes.png'); */
     background-repeat: no-repeat;
-    position: relative;
-    background-position: center center, left top;
     color: #0A0B0B;
     padding: 20px;
     text-align: center;
@@ -105,10 +103,14 @@ body {
 .especialista {
     background-color: #1ACDB8;
     font-family: Plein;
-    padding: 5rem;
+    padding: 5rem 18rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#btn {
+    margin-top: 3.5rem;
 }
 
 .title-especialista {
@@ -126,6 +128,18 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0 2.5rem 0 2.5rem;
+}
+
+#text-specialties {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    gap: 2rem;
+}
+
+#text-specialties p:first-child {
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .experts-icon {
@@ -196,8 +210,6 @@ body {
     align-items: flex-end;
 }
 
-/* ESPECIALISTA */
-
 .description {
     display: flex;
     flex-direction: column;
@@ -212,7 +224,6 @@ body {
     padding: 20px;
     text-align: center;
     font-size: 16px;
-    height: 1000px;
 }
 
 .empresas {
@@ -250,7 +261,7 @@ body {
     height: 240px;
 }
 
-.resultados {
+.results {
     background-color: #0A0B0B;
     color: #F5F5F5;
     padding: 20px;
